@@ -41,3 +41,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 🔹 *Niyukti-Sure - Ensuring Recruitment with Confidence!*
+https://docs.google.com/document/d/1DYbVCw2pB_2VW_G3f-6Z-Ipbg1qqjgpmgcu2jSXSxi8/edit?usp=sharing
