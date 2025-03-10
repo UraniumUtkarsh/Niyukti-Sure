@@ -1,0 +1,27 @@
+# Ignore the virtual environment
+niyukti_venv/
+venv/
+
+# Bytecode and cache files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs and databases
+*.log
+db.sqlite3
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git ignore rules for Django (if applicable)
+.env
+*.env
+*.sqlite3
