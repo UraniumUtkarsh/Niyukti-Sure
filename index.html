@@ -1,249 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>N</span>iyukti <span>S</span>ure</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-           
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="http://127.0.0.1:50134/" data-after="Projects">Login</a></li>
-          </ul>
-        </div>
-      </div>
+    <div class="container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+            </div>
+            <button type="submit">Login</button>
+        </form>
     </div>
-  </section>
-  <!-- End Header -->
-
-
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>Welcome to <span></span></h1>
-        <h1>Niyuktisure <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
-
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
-          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
-          voluptatum explicabo!</p>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="" /></div>
-          <h2>HTML</h2>
-          <p>HTML is the standard markup language for Web pages.
-
-            With HTML you can create your own Website.
-            
-            HTML is easy to learn - You will enjoy it!</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="" /></div>
-          <h2>CSS</h2>
-          <p>CSS is the language we use to style an HTML document.
-
-            CSS describes how HTML elements should be displayed.
-            
-            This tutorial will teach you CSS.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="" /></div>
-          <h2>JavaScript</h2>
-          <p>JavaScript is the world's most popular programming language.
-
-            JavaScript is the programming language of the Web.
-            
-            JavaScript is easy to learn.
-            </p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="" /></div>
-          <h2>PHP</h2>
-          <p>PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
-
-            PHP is a widely-used, free, and efficient.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>CODER'S WALK </h2>
-            <p>I will be given my best in this website coder's walk.</p>
-          </div>
-          <div class="project-img">
-            <img src="images/1111.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Calculator</h2>
-            <p>I will try to make best calculator and it's working. </p>
-          </div>
-          <div class="project-img">
-            <img src="images/8707220351.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Learnex</h2>
-            <p>This is my third project and i am very happy because successfully I will make this website.</p>
-          </div>
-          <div class="project-img">
-            <img src="images/coffee.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Analog Clock</h2>
-            <p>I will try to make Analog Clock with the help of using HTML, CSS, JAVA.
-              I will try to go my best.
-            </p>
-          </div>
-          <div class="project-img">
-            <img src="images/park.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Animated Website Front End</h2>
-            <p>When I will start to make project no five that time i try to make something diffrent.
-              Try to make animated website. In the website have many pages and after one-by-one the are silde by self and one button are given for subbnit your details and lot's of things. </p>
-          </div>
-          <div class="project-img">
-            <img src="images/background.jpg" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
-
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Front End Developer</h2>
-        <p>I'm a front end developer with two years of experience in web development. I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
-        <a href="#" class="cta">Download Resume</a>
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="images/contact.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+91 123 456 7890</h2>
-            <h2>+91 123 456 7890</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="images/gmail.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>Port123@gmail.com</h2>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="images/map.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>  Lucknow Uttar Pradesh India</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>N</span>iyukti <span>S</span>ure</h1>
-      </div>
-      <h2>Your Complete Web Solution</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="#"><img src="images/facwe.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="images/insta-black.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="images/black ttt.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.w3schools.com/tags/tag_a.asp"><img src="images/whats.png" /></a>
-        </div>
-      </div>
-      <p>Thankyou For wisit My Profile</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
