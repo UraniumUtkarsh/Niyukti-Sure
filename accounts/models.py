@@ -1,9 +1,12 @@
 from datetime import datetime,timezone
 from django.db import models 
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
+
+from common.models import BaseModel
+
 from .manager import CustomUserManager
 
-class User(AbstractBaseUser,PermissionsMixin):
+class User(BaseModel,AbstractBaseUser,PermissionsMixin):
     email=models.EmailField(unique=True)
     password=models.CharField(max_length=255)
     USERNAME_FIELD="email"
@@ -13,7 +16,7 @@ class User(AbstractBaseUser,PermissionsMixin):
 
     objects=CustomUserManager()
 
-class PendingUser(models.Model):
+class PendingUser(BaseModel):
     email=models.EmailField()
     password=models.CharField(max_length=255)
     verification_code=models.CharField(max_length=255)
