@@ -1,0 +1,9 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database if not needed
+db.sqlite3
