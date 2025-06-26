@@ -104,7 +104,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #7A2237
+  background-color: #5061c0
 }
 
 .small-btn {
@@ -115,8 +115,8 @@ body {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #9A2C47;
-  border: 1px solid #9A2C47;
+  background-color: #5061c0;
+  border: 1px solid #5061c0;
   border-radius: 0.2rem;
   cursor: pointer;
 }
@@ -148,7 +148,7 @@ body {
   margin: 0 10px;
   padding: 10px 20px;
   color: white;
-  background-color: #9A2C47;
+  background-color: #5061c0;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
@@ -156,7 +156,7 @@ body {
 }
 
 .homepage-header-buttons a:hover {
-  background-color: #7A2237;
+  background-color: #508ec0;
 }
 
 /* search */
@@ -181,7 +181,7 @@ body {
 
 .search-box button {
   padding: 10px 20px;
-  background-color: #9A2C47;
+  background-color: #5061c0;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -210,7 +210,7 @@ body {
 
 .job-card h3 {
   margin: 0;
-  color: #9A2C47;
+  color: #5061c0;
 }
 
 .job-card p {
@@ -219,7 +219,7 @@ body {
 }
 
 .job-card button {
-  background-color: #9A2C47;
+  background-color: #5061c0;
   color: #fff;
   padding: 8px 15px;
   border: none;
@@ -255,7 +255,7 @@ body {
 }
 
 .job-detail h2 {
-  color: #9A2C47;
+  color: #5061c0;
 }
 
 .job-detail p {
@@ -277,7 +277,7 @@ body {
 
 
 .application-form h3 {
-  color: #9A2C47;
+  color: #5061c0;
   margin-bottom: 15px;
 }
 
@@ -296,7 +296,7 @@ body {
 .application-form .btn {
   width: 100%;
   padding: 10px;
-  background-color: #9A2C47;
+  background-color: #5061c0;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -305,7 +305,7 @@ body {
 }
 
 .application-form .btn:hover {
-  background-color: #7A2237;
+  background-color: #5061c0;
 }
 
 

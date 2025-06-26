@@ -32,7 +32,7 @@ def register(request: HttpRequest):
             send_email(
                 "Verify Your Account",
                 [cleaned_email],
-                "email/email_verification_template.html",
+                "emails/email_verification_template.html",
                 context={'code': verification_code}
             )
             messages.success(request,f"Verification code sent to {cleaned_email}")
@@ -40,3 +40,6 @@ def register(request: HttpRequest):
         
     else:
         return render(request,"register.html")
+    
+def verify_account():
+    ...
