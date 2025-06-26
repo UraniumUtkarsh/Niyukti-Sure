@@ -1,0 +1,21 @@
+<section class="homepage-header">
+  <div class="homepage-header-buttons">
+      {% if user.is_authenticated %}
+           
+          <a class="" href="">Create Advert</a>
+          <a href="">My Jobs</a>
+          <a href="">My Applications</a>
+          <a href="">Logout</a>
+          
+          
+      {% else %}                                                                            
+      <a href="">Login</a>
+      <a href="">Register</a>
+      {% endif %}
+  </div>
+  <h1>Find Your Dream Job <a style="font-size: larger;" href="/">🏠</a></h1> 
+  <p>The swift way to hire, the smart way to find offers.</p>
+  <div style="display: flex; align-items: center; justify-content: center;">
+      {% include 'alerts.html' %}
+  </div>
+</section>

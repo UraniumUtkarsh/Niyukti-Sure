@@ -1,0 +1,532 @@
+/* Base styles */
+:root {
+  --white: #fff;
+  --darkblue: #1b4965;
+  --lightblue: #edf2f4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+
+
+/* Auth links */
+.auth-links {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-links a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-weight: 900;
+
+}
+
+.auth-links a:hover {
+  color: #ffffff;
+}
+
+
+
+/* Auth styling */
+.auth-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+  padding: 20px;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.auth-header {
+  background-color: #508ec0;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.auth-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+ /* Form styles */
+.form-group {
+  margin: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/* Buttons */
+.btn {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 0 auto 20px;
+  padding: 10px;
+  background-color: #508ec0;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #7A2237
+}
+
+.small-btn {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #9A2C47;
+  border: 1px solid #9A2C47;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+
+/* home header */
+
+.homepage-header {
+  font-family: system-ui; 
+  background-image: url('header-image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: large;                    
+  background-position: center center;
+  text-align: center;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+.homepage-header-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.homepage-header-buttons a  {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #9A2C47;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+.homepage-header-buttons a:hover {
+  background-color: #7A2237;
+}
+
+/* search */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #9A2C47;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* jobs */
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.job-card h3 {
+  margin: 0;
+  color: #9A2C47;
+}
+
+.job-card p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.job-card button {
+  background-color: #9A2C47;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.detail-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* Align items to the top */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.detail-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.job-detail {
+  flex: 3;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-detail h2 {
+  color: #9A2C47;
+}
+
+.job-detail p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.application-form {
+  flex: 2;
+  /* Prevent stretching */
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+  /* Prevent form from matching the job details' height */
+}
+
+
+.application-form h3 {
+  color: #9A2C47;
+  margin-bottom: 15px;
+}
+
+.application-form .form-group {
+  margin-bottom: 15px;
+}
+
+.application-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.application-form .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #9A2C47;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.application-form .btn:hover {
+  background-color: #7A2237;
+}
+
+
+
+/* Common styles for all messages */
+.message-container {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Success message */
+.message-success {
+  background-color: #4CAF50;
+  color: white;
+  border-left: 5px solid #388E3C;
+}
+
+/* Error message */
+.message-error {
+  background-color: #f44336;
+  color: white;
+  border-left: 5px solid #D32F2F;
+}
+
+/* Style for the message text */
+.message {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.step-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination-disabled {
+  color: #aaa;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.pagination-current {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  color: #333;
+}
+
+
+/* Style the error list container */
+.errorlist {
+  list-style-type: none;
+  color: #d9534f;
+  font-size: 14px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Style individual error list items */
+.errorlist li {
+  margin-bottom: 5px;
+  /* Adds spacing between errors */
+  color: #d9534f;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  margin:  auto;
+}
+
+
+/* table styles */
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+
+.table-wrapper table {
+  margin: 50px 0 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-wrapper table th,
+.table-wrapper table td {
+  padding: 10px;
+  min-width: 75px;
+}
+
+.table-wrapper table th {
+  color: var(--white);
+  background: var(--darkblue);
+}
+
+.table-wrapper table tbody tr:nth-of-type(even)>* {
+  background: var(--lightblue);
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .detail-container {
+    flex-direction: column;
+    /* Stack vertically */
+    gap: 20px;
+  }
+
+  .job-detail,
+  .application-form {
+    flex: none;
+    width: 100%;
+    /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .job-detail {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .application-form {
+    padding: 15px;
+  }
+
+  .application-form .btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .application-form .form-control {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .job-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .job-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .job-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+
+  .nav-links,
+  .auth-links {
+    display: none;
+  }
+
+  .nav-bar {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .auth-header h2 {
+    font-size: 18px;
+  }
+
+  .form-group {
+    margin: 15px;
+  }
+
+  .btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
